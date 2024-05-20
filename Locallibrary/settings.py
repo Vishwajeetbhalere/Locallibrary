@@ -37,7 +37,7 @@ SECRET_KEY = os.environ.get(
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['VishwajeetB01.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -162,3 +162,6 @@ STORAGES = {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
+
+CSRF_TRUSTED_ORIGINS = ['https://VishwajeetB01.pythonanywhere.com']
+
