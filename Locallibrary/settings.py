@@ -39,7 +39,8 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 # For example, for a site URL at 'VishwajeetB01.pythonanywhere.com'
 # (replace the string below with your own site URL):
-ALLOWED_HOSTS = ['web-production-3640.up.railway.app', '127.0.0.1']
+#ALLOWED_HOSTS = ['web-production-3640.up.railway.app', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 # During development, you can instead set just the base URL
 # (you might decide to change the site a few times).
